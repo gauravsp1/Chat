@@ -24,7 +24,7 @@ export default {
 
       setTimeout(()=>{
         dispatch({ type: STOP_LOADING_UI });
-        history.push('/home');
+        history.push('/Chat/home');
       },2000)
 
       // axios
@@ -56,7 +56,7 @@ export default {
       
       setTimeout(()=>{
         dispatch({ type: STOP_LOADING_UI });
-        history.push('/home');
+        history.push('/Chat/home');
       },2000)
 
       // axios
@@ -99,7 +99,7 @@ export default {
 
   logoutUser(history) {
     return  (dispatch) => {
-      history.push('/');
+      history.push('/Chat/');
       localStorage.removeItem('Token');
       delete axios.defaults.headers.common['Authorization'];
       dispatch({ type: SET_UNAUTHENTICATED });
