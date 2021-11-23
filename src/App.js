@@ -36,9 +36,9 @@ function App() {
       <Provider store={store}>
       {/* <NavBar/> */}
       <Switch>
-      <Route exact path="/chat/" component={Home} />
-      <Route exact path="/chat" component={Login} />
-      <Route exact path="/" component={SignUp} />
+      <Route exact path="/Chat/home" component={Home} />
+      <Route exact path="/Chat/" component={Login} />
+      <Route exact path="/Chat/signup" component={SignUp} />
     </Switch>
     </Provider>
     </div>

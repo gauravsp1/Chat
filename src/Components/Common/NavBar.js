@@ -60,10 +60,10 @@ function NavBar() {
             <Typography variant="h6" className={classes.title}>
             Chat-House
     </Typography>
-              <BootstrapButton id="Login" variant="contained" color="inherit" component={Link} to="/" disableRipple className={classes.margin}>
+              <BootstrapButton id="Login" variant="contained" color="inherit" component={Link} to="/Chat/" disableRipple className={classes.margin}>
              Login
       </BootstrapButton>             
-              <BootstrapButton id="SignUp" variant="contained" color="inherit" component={Link} to="/signup" disableRipple className={classes.margin}>
+              <BootstrapButton id="SignUp" variant="contained" color="inherit" component={Link} to="/Chat/signup" disableRipple className={classes.margin}>
               SignUp
       </BootstrapButton>
      

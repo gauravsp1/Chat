@@ -83,7 +83,7 @@ function NavBarHome(props) {
     </Typography>
     <div className="TitleBar">
     {/* <Notification/> */}
-    <BootstrapButton id="Home" variant="contained" color="inherit" onClick={handleClick} component={Link} to="/home" disableRipple className={classes.margin}>
+    <BootstrapButton id="Home" variant="contained" color="inherit" onClick={handleClick} component={Link} to="/Chat/home" disableRipple className={classes.margin}>
               Home
       </BootstrapButton>      
               <BootstrapButton onClick={logout} id="Logout" variant="contained" color="inherit"  disableRipple className={classes.margin}>
