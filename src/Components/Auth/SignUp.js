@@ -88,7 +88,7 @@ function SignUp(props) {
         <Button type="submit" disabled={UI.loading} onClick={handleSubmit} variant="contained" color="primary" className={classes.Button}>Sign Up
         {UI.loading ? <CircularProgress className={classes.Progress}/>:null}
         </Button>
-        <h5>Have an account?Login <Link to="/">here</Link> </h5>
+        <h5>Have an account?Login <Link to="/Chat/">here</Link> </h5>
     </div>
     </>
     )
